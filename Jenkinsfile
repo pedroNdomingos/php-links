@@ -2,7 +2,7 @@
 
 node {
 	checkout()
-	slackStartJob()
+	//slackStartJob()
 
 	/* feature branch */
 	if ( env.BRANCH_NAME != 'master' ) {
